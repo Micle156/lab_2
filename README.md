@@ -34,12 +34,19 @@ lab_02/
 - Обрабатывает несколько файлов за один запуск
 - Поддерживает 2 режима
 
-## Устновка
-Нужен python 3.11+
+## Установка
 
+### подключение с git hub и виртуальное окружение
 ```
+git clone https://github.com/Micle156/lab_2.git
+cd lab_2
+python -m venv venv
+.\venv\Scripts\activate
+python -m pip install --upgrade pip
 pip install -e ".[dev]"
 ```
+
+Нужен python 3.11+
 
 ## Запуск
 
